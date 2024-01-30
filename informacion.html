@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informacion</title>
+    <style>
+
+        @font-face {
+            font-family: 'Mogent';
+            src: url('Mogent.otf') format('opentype');
+            /* Ajusta la ruta según la ubicación real de tu archivo de fuente */
+        }
+
+        body {
+            font-family: 'Mogent', sans-serif;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #f5f5f5; /* gris claro */
+            overflow: hidden;
+            padding: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .search-bar {
+            float: left;
+        }
+
+        .search-input {
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .search-button {
+            padding: 8px 15px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .menu {
+            float: right;
+            margin-top: 5px;
+        }
+
+        .menu-item {
+            margin-right: 15px;
+            color: #333; /* color de texto gris oscuro */
+            text-decoration: none;
+        }
+
+        a {
+            font-family: 'Mogent', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="Imagenes/logo/logotipo.png" alt="Logo" width="50">
+        </div>
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Buscar...">
+            <button class="search-button">Buscar</button>
+        </div>
+        <div class="menu">
+            <a href="Contacto.html" class="menu-item">Contactos</a>
+            <a href="Servicios.html" class="menu-item">Servicio</a>
+            <a href="informacion.html" class="menu-item">Información</a>
+        </div>
+    </div>
+
+</body>
+</html>
