@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/logo/logotipo.png" type="image/x-icon">
     <title>Servicios</title>
     <style>
 
@@ -14,7 +15,8 @@
 
         body {
             margin: 0;
-            font-family: 'Mogent', sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(241, 241, 182);
         }
 
         .navbar {
@@ -58,7 +60,38 @@
             color: #333; /* color de texto gris oscuro */
             text-decoration: none;
         }
-
+        .texto
+        {
+            margin: 2% 5% 5% 5%;
+            text-align: center;
+            font-size: 35px;
+        }
+        .text
+        {
+            margin: 5%;
+            text-align: center;
+            font-size: 20px ;
+        }
+        .container
+        {
+            padding: 5%;
+        }
+        .image-pair
+        {
+            display: flex;
+        }
+        .uno
+        {
+            flex: 1;
+            width: 50%;
+            height: auto;
+        }
+        .dos
+        {
+            flex: 2;
+            width: 45%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -72,13 +105,42 @@
             <button class="search-button">Buscar</button>
         </div>
         <div class="menu">
-            <a href="Contacto.html" class="menu-item">Contactos</a>
+            <a href="informacion.html" class="menu-item">Nosotros</a>
             <a href="Servicios.html" class="menu-item">Servicio</a>
-            <a href="informacion.html" class="menu-item">Información</a>
+            <a href="Contacto.html" class="menu-item">Contactos</a>
         </div>
     </div>
 
     <!-- Contenido de la página -->
-
+    <div class="texto">
+    <p>
+        Nuestro estudio consta de la unión de varios artistas multidisciplinarios y directores creativos, expertos en el desarrollo de conceptos publicitarios visualmente avanzados para grandes marcas. Nuestros colaboradores y clientes anteriores incluyen a Burberry, Vogue Magazine, Toyota x Wetransfer, Bimba & Lola, entre otros... 
+    </p>
+    </div>
+    <div class="container">
+        <div class="image-pair">
+            <img  class="uno" src="Imagenes/colab-1.jpeg" alt="">
+            <img class="dos" src="Imagenes/colab-2.jpeg" alt="">
+        </div>
+        <div class="image-pair">
+            <img class="uno" src="Imagenes/colab-3.jpeg" alt="">
+            <img class="dos" src="Imagenes/colab-4.jpeg" alt="">
+        </div>
+        <div class="image-pair">
+            <img class="uno" src="Imagenes/colab-5.jpeg" alt="">
+            <img class="dos" src="Imagenes/colab-6.jpeg" alt="">
+        </div>
+        <div class="image-pair">
+            <img class="uno" src="Imagenes/colab-7.jpeg" alt="">
+            <img class="dos" src="Imagenes/colab-8.jpeg" alt="">
+        </div>
+    </div>
+    <div class="text">
+        <p>
+            Como pudiste ver, nuestro catálogo de servicios abarca desde sesiones de fotografía de moda y publicitaria hasta producciones audiovisuales de alto impacto. Cada proyecto es abordado con la misma dedicación y atención al detalle que nos caracteriza. En Estudio Radiante, fusionamos la visión artística con la excelencia técnica para superar las expectativas y crear experiencias visuales inolvidables.
+            <br>
+            Descubre cómo podemos llevar tu marca al siguiente nivel. Eligenos para discutir tus ideas, objetivos y comenzar una colaboración que impulse tu presencia visual. Si tú o tu empresa están interesados, recuerda llenar el <a target="_blank" href="Contacto.html">formulario</a> y nos pondremos en contacto contigo. Estamos listos para dar vida a tu visión.
+        </p>
+    </div>
 </body>
 </html>
